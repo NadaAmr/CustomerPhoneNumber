@@ -7,6 +7,11 @@ This is a spring boot Application which contains a simple business logic , it va
 - Spring 
 - SQLITE3
 
+#### How to start 
+1- Run maven package cmd [ mvn clean pacakge]
+2- docker build image [ docker build --tag=demo:latest .]
+3- docker run [ docker run -p 8080:8080 demo:latest]
+
 #### The API method
 - GET /customer/phone - find all customer with filters
 
